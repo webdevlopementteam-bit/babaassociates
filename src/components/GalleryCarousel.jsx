@@ -7,9 +7,33 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 // Visual weight of each slide relative to its distance from the active
 // (center) slide. Index 0 = center, higher indexes sit further out.
 const SLIDE_STYLES = [
-  { width: 420, height: 480, translateX: 0, scale: 1, opacity: 1, blur: 0, z: 40 },
-  { width: 300, height: 420, translateX: 300, scale: 0.85, opacity: 0.75, blur: 1, z: 30 },
-  { width: 220, height: 380, translateX: 520, scale: 0.7, opacity: 0.4, blur: 2, z: 20 },
+  {
+    width: 420,
+    height: 480,
+    translateX: 0,
+    scale: 1,
+    opacity: 1,
+    blur: 0,
+    z: 40,
+  },
+  {
+    width: 300,
+    height: 420,
+    translateX: 300,
+    scale: 0.85,
+    opacity: 0.75,
+    blur: 1,
+    z: 30,
+  },
+  {
+    width: 220,
+    height: 380,
+    translateX: 520,
+    scale: 0.7,
+    opacity: 0.4,
+    blur: 2,
+    z: 20,
+  },
 ];
 
 export default function GalleryCarousel({ items }) {
@@ -20,7 +44,7 @@ export default function GalleryCarousel({ items }) {
 
   const goTo = useCallback(
     (index) => setActiveIndex(((index % count) + count) % count),
-    [count]
+    [count],
   );
 
   const next = useCallback(() => goTo(activeIndex + 1), [activeIndex, goTo]);
@@ -74,6 +98,7 @@ export default function GalleryCarousel({ items }) {
                   src={item.image}
                   alt={item.name}
                   fill
+                  sizes="(max-width: 768px) 100vw,(max-width: 1200px) 80vw,700px"
                   className="object-cover"
                   priority={offset === 0}
                 />

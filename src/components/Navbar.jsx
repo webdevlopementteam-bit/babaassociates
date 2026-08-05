@@ -4,11 +4,12 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, ChevronDown } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
+  const pathName = usePathname();
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 30);
@@ -37,7 +38,6 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="h-24 flex items-center justify-between">
-
           {/* Logo */}
           <Link href="/" className="flex items-center">
             {/* Replace with your logo */}
@@ -52,19 +52,21 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <nav className="hidden lg:flex items-center gap-10">
-
             {navLinks.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="group relative flex items-center gap-1 text-white font-medium text-[15px] transition duration-300 hover:text-gold-300"
+                className={`group relative flex items-center gap-1 font-medium text-[15px] transition duration-300 ${
+                  item.href === "/"
+                    ? pathName === "/"
+                      ? "text-gold-400"
+                      : "text-white hover:text-gold-300"
+                    : pathName.startsWith(item.href)
+                      ? "text-gold-400"
+                      : "text-white hover:text-gold-300"
+                }`}
               >
                 {item.name}
-
-                {item.dropdown && (
-                  <ChevronDown size={16} strokeWidth={2} />
-                )}
-
                 <span className="absolute -bottom-2 left-0 h-[2px] w-0 bg-gold-400 transition-all duration-300 group-hover:w-full"></span>
               </Link>
             ))}
@@ -96,17 +98,22 @@ export default function Navbar() {
         }`}
       >
         <div className="bg-black/95 backdrop-blur-xl px-6 py-6 space-y-5">
-
           {navLinks.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              onClick={() => setMobileMenu(false)}
-              className="flex items-center justify-between text-white text-lg"
+              className={`group relative flex items-center gap-1 font-medium text-[15px] transition duration-300 ${
+                item.href === "/"
+                  ? pathName === "/"
+                    ? "text-gold-400"
+                    : "text-white hover:text-gold-300"
+                  : pathName.startsWith(item.href)
+                    ? "text-gold-400"
+                    : "text-white hover:text-gold-300"
+              }`}
             >
               {item.name}
-
-              {item.dropdown && <ChevronDown size={18} />}
+              <span className="absolute -bottom-2 left-0 h-[2px] w-0 bg-gold-400 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           ))}
 

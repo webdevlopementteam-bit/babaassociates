@@ -24,20 +24,33 @@ export default function AboutSection() {
     <section className="bg-[#FBF6EC] md:py-24 py-5 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-
           {/* LEFT */}
           <div>
             <div className="flex items-center gap-3">
               <span className="h-px w-6 bg-gold-500" />
               <span className="uppercase tracking-[4px] text-gold-600 font-semibold text-sm">
-                About Baba Associates
+                About Baba Associate
               </span>
             </div>
 
-            <h2 className="mt-5 text-3xl lg:text-5xl font-cinzel font-bold leading-tight text-gray-900">
-              Building Spaces.
-              <br />
-              <span className="italic text-gold-600">Building Trust.</span>
+            <h2 className="mt-5 text-start font-cinzel font-bold leading-tight text-gray-900">
+              <div className="italic whitespace-nowrap">
+                <span className="text-gold-600 text-4xl sm:text-5xl lg:text-6xl">
+                  B
+                </span>
+                <span className="align-middle text-xl sm:text-2xl md:text-3xl">
+                  uilding&nbsp;Dreams
+                </span>
+              </div>
+
+              <div className="mt-2 italic whitespace-nowrap">
+                <span className="text-gold-600 text-4xl sm:text-5xl lg:text-6xl">
+                  A
+                </span>
+                <span className="align-middle text-xl sm:text-2xl md:text-3xl">
+                  chieving Excellence
+                </span>
+              </div>
             </h2>
 
             <div className="flex items-center gap-3 mt-6">
@@ -47,17 +60,16 @@ export default function AboutSection() {
             </div>
 
             <p className="mt-8 text-gray-600 leading-8 text-lg">
-              At Baba Associates, we don't just construct buildings — we
-              create homes filled with comfort, designed for generations
-              and built on values of honesty, quality and commitment.
-              From concept to completion, every detail is thoughtfully
-              planned and executed to deliver spaces that reflect luxury,
-              functionality and timeless design.
+              At Baba Associates, we don't just construct buildings — we create
+              homes filled with comfort, designed for generations and built on
+              values of honesty, quality and commitment. From concept to
+              completion, every detail is thoughtfully planned and executed to
+              deliver spaces that reflect luxury, functionality and timeless
+              design.
             </p>
 
             {/* Vision Mission */}
             <div className="mt-12 grid sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 bg-white rounded-3xl shadow-lg p-8">
-
               <div className="sm:pr-8">
                 <div className="w-14 h-14 rounded-full bg-gold-50 flex items-center justify-center">
                   <Eye size={24} className="text-gold-600" />
@@ -70,9 +82,8 @@ export default function AboutSection() {
                 <span className="block w-8 h-[2px] bg-gold-400 my-3" />
 
                 <p className="text-gray-600 leading-7">
-                  To become one of the most trusted names in premium
-                  residential development through quality, transparency
-                  and innovation.
+                  To become one of the most trusted names in premium residential
+                  development through quality, transparency and innovation.
                 </p>
               </div>
 
@@ -88,17 +99,15 @@ export default function AboutSection() {
                 <span className="block w-8 h-[2px] bg-gold-400 my-3" />
 
                 <p className="text-gray-600 leading-7">
-                  Deliver modern homes with excellent craftsmanship,
-                  timely completion and complete customer satisfaction.
+                  Deliver modern homes with excellent craftsmanship, timely
+                  completion and complete customer satisfaction.
                 </p>
               </div>
-
             </div>
           </div>
 
           {/* RIGHT */}
           <div className="relative">
-
             {/* Dotted pattern */}
             <div
               className="hidden lg:block absolute -top-8 right-2 w-28 h-16"
@@ -136,7 +145,9 @@ export default function AboutSection() {
                   <Building2 size={24} className="text-gold-600" />
                 </div>
                 <div>
-                  <h3 className="text-4xl font-cinzel font-bold text-gold-600">15+</h3>
+                  <h3 className="text-4xl font-cinzel font-bold text-gold-600">
+                    17+
+                  </h3>
                   <p className="uppercase tracking-[2px] text-xs text-gray-600 mt-1 max-w-[9rem] leading-snug">
                     Years of Building Excellence
                   </p>
@@ -151,10 +162,7 @@ export default function AboutSection() {
                   const Icon = item.icon;
 
                   return (
-                    <div
-                      key={index}
-                      className="flex items-center gap-2"
-                    >
+                    <div key={index} className="flex items-center gap-2">
                       <div className="w-10 h-10 rounded-full border border-gold-400 flex items-center justify-center shrink-0">
                         <Icon size={17} className="text-gold-300" />
                       </div>
@@ -166,9 +174,7 @@ export default function AboutSection() {
                 })}
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>

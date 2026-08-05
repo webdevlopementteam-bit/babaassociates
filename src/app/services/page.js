@@ -116,9 +116,9 @@ export default function ServicesPage() {
           <span className="block w-16 h-[2px] bg-gold-400 mx-auto mt-6" />
 
           <p className="mt-6 max-w-2xl mx-auto text-gold-100/70 leading-8 font-poppins">
-            From a brand-new home on your plot to buying, selling,
-            redesigning and renovating — Baba Associates is your complete,
-            end-to-end real estate partner.
+            From a brand-new home on your plot to buying, selling, redesigning
+            and renovating — Baba Associates is your complete, end-to-end real
+            estate partner.
           </p>
         </div>
       </section>
@@ -143,6 +143,7 @@ export default function ServicesPage() {
                     src={service.image}
                     alt={service.title}
                     fill
+                    sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
@@ -201,8 +202,8 @@ export default function ServicesPage() {
                 Have a plot of your own?
               </h3>
               <p className="mt-2 text-gray-600 font-poppins">
-                Let&apos;s design and build your dream home on it — right
-                from the ground up.
+                Let&apos;s design and build your dream home on it — right from
+                the ground up.
               </p>
             </div>
 

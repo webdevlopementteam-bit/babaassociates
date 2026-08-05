@@ -11,7 +11,7 @@ const testimonials = [
       "Baba Associates built our dream home from the ground up on our new plot. Every detail was handled with precision, quality and genuine care.",
     name: "Arjun Mehta",
     title: "New Construction",
-    company: "Sector 21, Noida",
+    company: "Rohini Sector 11, Delhi",
     avatar: "/testimonials/arjun.svg",
     image: "/testimonials/newconstruct.webp",
     rating: 5,
@@ -20,38 +20,38 @@ const testimonials = [
   {
     id: 2,
     quote:
+      "Their renovation team transformed our old house into a modern, comfortable home. A dedicated team that goes above and beyond!",
+    name: "Sneha Kapoor",
+    title: "Renovation",
+    company: "Shalimar Bagh, Delhi",
+    avatar: "/testimonials/sneha.svg",
+    image: "/services/redesign.webp",
+    rating: 5,
+    platform: "google",
+  },
+  {
+    id: 3,
+    quote:
       "They completely redesigned our old home and it feels brand new. Outstanding attention to detail from start to finish. Highly recommended!",
     name: "Priya Sharma",
     title: "Home Redesign",
-    company: "Greater Noida",
+    company: "Rohini Sector 15, Delhi",
     avatar: "/testimonials/priya.svg",
     image: "/services/renovate.webp",
     rating: 5,
     platform: "instagram",
   },
   {
-    id: 3,
+    id: 4,
     quote:
       "We bought our resale property through Baba Associates — the entire process was transparent, smooth and completely hassle-free.",
     name: "Rohit Verma",
     title: "Resale Property",
-    company: "Delhi NCR",
+    company: "Rohini Sector 16, Delhi",
     avatar: "/testimonials/rohit.svg",
     image: "/services/resale.webp",
     rating: 5,
     platform: "facebook",
-  },
-  {
-    id: 4,
-    quote:
-      "Their renovation team transformed our old house into a modern, comfortable home. A dedicated team that goes above and beyond!",
-    name: "Sneha Kapoor",
-    title: "Renovation",
-    company: "Rohini, Delhi",
-    avatar: "/testimonials/sneha.svg",
-    image: "/services/redesign.webp",
-    rating: 5,
-    platform: "google",
   },
 ];
 
@@ -62,8 +62,7 @@ const platformBadge = {
     iconClassName: "",
   },
   instagram: {
-    className:
-      "bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600",
+    className: "bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600",
     Icon: FaInstagram,
     iconClassName: "text-white",
   },
@@ -89,7 +88,6 @@ function TestimonialCard({
 
   return (
     <div className="relative bg-white rounded-2xl border border-gold-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-6">
-
       {/* Top row */}
       <div className="flex items-start justify-between">
         <div className="w-11 h-11 rounded-full bg-gold-50 flex items-center justify-center shrink-0">
@@ -124,11 +122,7 @@ function TestimonialCard({
       <div className="mt-5 border-t border-gray-100 pt-4 flex items-center gap-3">
         <div className="relative w-11 h-11 shrink-0 rounded-full overflow-hidden border-2 border-gold-400">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={avatar}
-            alt={name}
-            className="w-full h-full object-cover"
-          />
+          <img src={avatar} alt={name} className="w-full h-full object-cover" />
         </div>
 
         <div>
@@ -139,11 +133,7 @@ function TestimonialCard({
 
           <div className="flex gap-0.5 mt-1">
             {Array.from({ length: rating }).map((_, i) => (
-              <Star
-                key={i}
-                size={12}
-                className="text-gold-400 fill-gold-400"
-              />
+              <Star key={i} size={12} className="text-gold-400 fill-gold-400" />
             ))}
           </div>
         </div>

@@ -21,19 +21,25 @@ const projects = [
     location: "Delhi",
     feature: "Premium Interior Finish",
   },
+  {
+    id: 3,
+    video: "/projecttwo3.mp4",
+    badge: "Ready for sale",
+    category: "New Modern Flat",
+    title: "4-BHK & 3 Washrooms, 170sq yards",
+    location: "Delhi",
+    feature: "Premium Interior Finish",
+  },
 ];
 
 export default function ProjectsSection() {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-
         {/* Heading */}
 
         <div className="flex flex-col lg:flex-row justify-between items-end mb-14">
-
           <div>
-
             <span className="uppercase tracking-[4px] text-gold-950 text-sm font-semibold">
               Featured Projects
             </span>
@@ -43,29 +49,21 @@ export default function ProjectsSection() {
             </h2>
 
             <p className="mt-5 text-gray-600 max-w-2xl">
-              Discover thoughtfully designed residential developments
-              built with quality craftsmanship, modern architecture and
-              premium interiors.
+              Discover thoughtfully designed residential developments built with
+              quality craftsmanship, modern architecture and premium interiors.
             </p>
-
           </div>
-
-     
         </div>
 
         {/* Cards */}
 
-        <div className="grid lg:grid-cols-2 gap-8">
-
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-
             <div
               key={project.id}
               className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm hover:shadow-2xl transition-all duration-500 group"
             >
-
               <div className="relative overflow-hidden">
-
                 <video
                   src={project.video}
                   autoPlay
@@ -78,16 +76,12 @@ export default function ProjectsSection() {
                 <span className="absolute top-5 left-5 rounded-full bg-white px-4 py-2 text-sm font-semibold">
                   {project.badge}
                 </span>
-
               </div>
 
               <div className="p-7">
+                <p className="text-gold-950 font-medium">{project.category}</p>
 
-                <p className="text-gold-950 font-medium">
-                  {project.category}
-                </p>
-
-                <h3 className="mt-3 text-2xl  font-semibold">
+                <h3 className="mt-3 text-2xl md:text-2xl lg:text-3xl font-semibold min-h-[60px]">
                   {project.title}
                 </h3>
 
@@ -97,23 +91,14 @@ export default function ProjectsSection() {
                 </div>
 
                 <div className="mt-6 border-t pt-5 flex justify-between items-center">
-
-                  <span className="text-gray-700">
-                    {project.feature}
-                  </span>
+                  <span className="text-gray-700">{project.feature}</span>
 
                   <ArrowRight className="text-gold-950 group-hover:translate-x-2 transition" />
-
                 </div>
-
               </div>
-
             </div>
-
           ))}
-
         </div>
-
       </div>
     </section>
   );

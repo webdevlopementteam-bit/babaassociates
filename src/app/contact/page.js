@@ -12,9 +12,9 @@ import {
 } from "lucide-react";
 
 const teamContacts = [
-  { name: "Ish Kumar", phone: "9999774811" },
-  { name: "Micky", phone: "9899350043" },
-  { name: "Lalit", phone: "9711434491" },
+  { name: "⁠Ish Kumar Wanvani", phone: "9999774811" },
+  { name: "⁠Madhukar Wanvani", phone: "9899350043" },
+  { name: "Lalit Wanvani", phone: "9711434491" },
 ];
 
 export default function ContactPage() {
@@ -61,7 +61,6 @@ export default function ContactPage() {
       <section className="bg-[#FBF6EC] py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-5 gap-8">
-
             {/* LEFT: Info */}
             <div className="lg:col-span-2 space-y-6">
               <div className="bg-white rounded-2xl border border-gold-100 shadow-sm p-8">
@@ -83,9 +82,7 @@ export default function ContactPage() {
                         />
                       </div>
                       <div>
-                        <p className="font-semibold text-gray-900">
-                          {c.name}
-                        </p>
+                        <p className="font-semibold text-gray-900">{c.name}</p>
                         <p className="text-gray-500 text-sm font-poppins">
                           +91 {c.phone}
                         </p>
@@ -103,10 +100,10 @@ export default function ContactPage() {
                   <div>
                     <p className="font-semibold text-gray-900">Email</p>
                     <a
-                      href="mailto:baba.associate32@gmail.com"
+                      href="mailto:ishkumar.asm@gmail.com"
                       className="text-gray-500 text-sm font-poppins hover:text-gold-700 transition"
                     >
-                      baba.associate32@gmail.com
+                      ishkumar.asm@gmail.com
                     </a>
                   </div>
                 </div>
@@ -122,7 +119,7 @@ export default function ContactPage() {
                       Office Address
                     </p>
                     <p className="text-gray-500 text-sm font-poppins mt-1 leading-6">
-                      H-5/57 &amp; I-4/21, Sector-16,
+                      I-4/21 & H-5/57
                       <br />
                       Rohini, Delhi-110085
                     </p>
@@ -149,8 +146,8 @@ export default function ContactPage() {
                       Thank You!
                     </h3>
                     <p className="mt-2 text-gray-600 font-poppins">
-                      Your message has been received. We&apos;ll get back to
-                      you soon.
+                      Your message has been received. We&apos;ll get back to you
+                      soon.
                     </p>
                   </div>
                 ) : (
@@ -252,7 +249,6 @@ export default function ContactPage() {
                 )}
               </div>
             </div>
-
           </div>
 
           {/* Map */}

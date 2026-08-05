@@ -7,7 +7,11 @@ const gallery = [
   { id: 2, image: "/gallery/imagetwo.jpeg", name: "Elegant Living Room" },
   { id: 3, image: "/gallery/imagethree.jpeg", name: "Modern Kitchen Design" },
   { id: 4, image: "/gallery/imagefour.jpeg", name: "Premium Master Bedroom" },
-  { id: 5, image: "/gallery/imagefive.jpeg", name: "Contemporary Dining Space" },
+  {
+    id: 5,
+    image: "/gallery/imagefive.jpeg",
+    name: "Contemporary Dining Space",
+  },
   { id: 6, image: "/gallery/imagesix.jpeg", name: "Designer Bathroom" },
   { id: 7, image: "/gallery/imageseven.jpeg", name: "Spacious Balcony View" },
   { id: 8, image: "/gallery/imageeight.jpeg", name: "Home Office Interior" },
@@ -16,7 +20,11 @@ const gallery = [
   { id: 11, image: "/gallery/imageeleven.webp", name: "Modern Facade Design" },
   { id: 12, image: "/gallery/imagetwelve.webp", name: "Cozy Family Lounge" },
   { id: 13, image: "/gallery/imagethirteen.webp", name: "Elegant Staircase" },
-  { id: 14, image: "/gallery/imagefourteen.webp", name: "Rooftop Terrace View" },
+  {
+    id: 14,
+    image: "/gallery/imagefourteen.webp",
+    name: "Rooftop Terrace View",
+  },
 ];
 
 export default function GalleryPage() {
@@ -36,9 +44,8 @@ export default function GalleryPage() {
           <span className="block w-16 h-[2px] bg-gold-400 mx-auto mt-6" />
 
           <p className="mt-6 max-w-2xl mx-auto text-gold-100/70 leading-8 font-poppins">
-            Explore our complete collection of beautifully designed
-            interiors, premium homes, elegant renovations and architectural
-            excellence.
+            Explore our complete collection of beautifully designed interiors,
+            premium homes, elegant renovations and architectural excellence.
           </p>
         </div>
       </section>
@@ -56,6 +63,7 @@ export default function GalleryPage() {
                   src={item.image}
                   alt={item.name}
                   fill
+                  sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"
                   className="object-cover transition-all duration-700 group-hover:scale-110"
                 />
 

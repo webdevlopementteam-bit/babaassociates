@@ -15,37 +15,43 @@ const services = [
   {
     icon: Building2,
     title: "New Construction",
-    description: "Custom-built homes on your new plot, designed with precision, quality & luxury.",
+    description:
+      "Custom-built homes on your new plot, designed with precision, quality & luxury.",
     image: "/services/newconstruction.webp",
   },
   {
     icon: Home,
     title: "New Home Sales",
-    description: "Explore our exclusive range of ready-to-move, premium homes for sale.",
+    description:
+      "Explore our exclusive range of ready-to-move, premium homes for sale.",
     image: "/services/newhome.webp",
   },
   {
     icon: KeyRound,
     title: "Resale Properties",
-    description: "Handpicked pre-owned homes, bought or sold with complete transparency.",
+    description:
+      "Handpicked pre-owned homes, bought or sold with complete transparency.",
     image: "/services/resale.webp",
   },
   {
     icon: PencilRuler,
     title: "Home Redesign",
-    description: "Give your home a stunning new look with our expert design solutions.",
+    description:
+      "Give your home a stunning new look with our expert design solutions.",
     image: "/services/redesign.webp",
   },
   {
     icon: PaintRoller,
     title: "Renovation",
-    description: "Upgrade, modernize & transform your space with our renovation expertise.",
+    description:
+      "Upgrade, modernize & transform your space with our renovation expertise.",
     image: "/services/renovate.webp",
   },
   {
     icon: HousePlus,
     title: "Build On Your Plot",
-    description: "Turn your own plot into your dream home with our end-to-end construction.",
+    description:
+      "Turn your own plot into your dream home with our end-to-end construction.",
     image: "/services/buildonyourplot.webp",
   },
 ];
@@ -76,8 +82,8 @@ export default function ServicesSection() {
 
           <p className="mt-5 text-gray-500 leading-7">
             From a brand-new home on your plot to redesigning the one you
-            already own — we offer complete, end-to-end real estate
-            solutions built around you.
+            already own — we offer complete, end-to-end real estate solutions
+            built around you.
           </p>
         </div>
 
@@ -95,6 +101,7 @@ export default function ServicesSection() {
                   src={service.image}
                   alt={service.title}
                   fill
+                  sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"
                   className="object-cover transition duration-700 group-hover:scale-110"
                 />
 

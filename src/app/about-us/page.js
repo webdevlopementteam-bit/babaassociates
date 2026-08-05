@@ -16,7 +16,7 @@ import {
 } from "lucide-react";
 
 const history = [
-  "Started by Sh. Goverdhan Dass in 1988 as a builder and delivered multiple residential projects in Rohini.",
+  "⁠Started by Sh Goverdhan Dass Wanvani in 1998 as a builder and delivered multiple residential projects in Rohini.",
   "Started working as a Real Estate Consultancy Firm in 2010 and built a strong reputation for fair dealing and quality service.",
   "In total, almost delivered 56,000 sq. ft. of constructed space in Rohini, and all the clients are living happily.",
   "As a consultancy firm, we have an experience of 17 years and have served thousands of happy clients. Our USP is having satisfied and repeat clients.",
@@ -28,7 +28,7 @@ const history = [
 const team = [
   {
     initials: "GD",
-    name: "Sh. Goverdhan Dass",
+    name: "Sh. Goverdhan Dass Wanvani",
     role: "Founder",
     points: ["Started working as a builder in 1988."],
   },
@@ -47,7 +47,7 @@ const team = [
   },
   {
     initials: "M",
-    name: "Mr. Madhukar",
+    name: "Mr. Madhukar Wanvani",
     role: "Sales & Operations",
     points: [
       "Graduate in B.A.",
@@ -58,7 +58,7 @@ const team = [
   },
   {
     initials: "IK",
-    name: "Mr. Ish Kumar",
+    name: "Mr. Ish Kumar Wanvani",
     role: "Sales & Marketing",
     points: [
       "Graduate in Journalism & Mass Communication (2010).",
@@ -126,8 +126,8 @@ export default function AboutPage() {
 
           <p className="mt-6 max-w-3xl mx-auto text-gold-100/70 leading-8 font-poppins">
             Baba Associates is a well-known and respected name in the
-            residential and commercial real estate industry in Rohini, Delhi
-            and NCR, having a specialization in Rohini.
+            residential and commercial real estate industry in Rohini, Delhi and
+            NCR, having a specialization in Rohini.
           </p>
         </div>
       </section>
@@ -142,16 +142,15 @@ export default function AboutPage() {
               </span>
 
               <h2 className="mt-4 font-cinzel text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-                Since 1988, Building Trust in Rohini
+                Since 1998, Building Trust in Rohini
               </h2>
 
               <span className="block w-10 h-[2px] bg-gold-400 mt-5 mb-6" />
 
               <p className="text-gray-600 leading-7 font-poppins">
-                From a builder delivering homes on the ground, to a trusted
-                real estate consultancy — our journey has always stayed
-                rooted in one place, and one promise: fair dealing and
-                quality service.
+                From a builder delivering homes on the ground, to a trusted real
+                estate consultancy — our journey has always stayed rooted in one
+                place, and one promise: fair dealing and quality service.
               </p>
             </div>
 

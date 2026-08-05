@@ -1,13 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  Landmark,
-  Clock3,
-  BadgeCheck,
-  Users,
-  Award,
-} from "lucide-react";
+import { Landmark, Clock3, BadgeCheck, Users, Award } from "lucide-react";
 
 const items = [
   {

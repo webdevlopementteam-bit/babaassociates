@@ -12,18 +12,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <>
-   <Hero/>
-   <FeatureSlider/>
-   <AboutSection/>
-   <ServicesSection/>
-   <CounterSection/>
-   <ExpertiseSection/>
-   <ProjectsSection/>
-  
-   <TestimonialsSection/>
-   <FAQSection/>
-   <GallerySection/>
-   </>
+    <>
+      <Hero />
+      <FeatureSlider />
+      <AboutSection />
+      <ServicesSection />
+      <CounterSection />
+      <ExpertiseSection />
+      <ProjectsSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <GallerySection />
+    </>
   );
 }
