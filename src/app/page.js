@@ -14,6 +14,9 @@ export const metadata = {
   title: "Baba Associates | Property Dealer & Home Builder in Rohini Since 1998",
   description:
     "Building homes in Rohini since 1998. New construction on your plot, 2-4 BHK freehold floors, resale, renovation & interiors. Call Baba Associates today.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 const faqSchema = {

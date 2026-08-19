@@ -32,9 +32,13 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://rohinihomes.in"),
   title: "Baba Associates",
   description:
     "Baba Associates - Construction, Renovation, Redesign & Real Estate Solutions",
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: "/balogo.png",
     shortcut: "/balogo.png",

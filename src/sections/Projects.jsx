@@ -26,7 +26,7 @@ const projects = [
     video: "/projecttwo3.mp4",
     badge: "Ready for sale",
     category: "New Modern Flat",
-    title: "4-BHK & 3 Washrooms, 170sq yards",
+    title: "4-BHK , 170sq yards",
     location: "Delhi",
     feature: "Premium Interior Finish",
   },
