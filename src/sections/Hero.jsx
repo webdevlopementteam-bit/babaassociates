@@ -41,13 +41,13 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-wrap gap-5">
-            <Link href="/contact">
+            <Link href="/contact/">
               <button className="rounded-md bg-[#C8A45D] px-8 py-4 font-semibold text-black transition-all duration-300 hover:bg-[#D4AF37]">
                 Contact us
               </button>
             </Link>
 
-            <Link href="/services">
+            <Link href="/services/">
               <button className="rounded-md border border-[#C8A45D] px-8 py-4 font-semibold text-[#D4AF37] transition-all duration-300 hover:bg-[#C8A45D] hover:text-black">
                 Services
               </button>

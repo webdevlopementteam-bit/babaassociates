@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Explore Baba Associates' complete range of real estate services — new construction, home sales, resale, redesign, renovation and building on your own plot.",
   alternates: {
-    canonical: "/services",
+    canonical: "/services/",
   },
 };
 

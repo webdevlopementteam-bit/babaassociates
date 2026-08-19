@@ -373,7 +373,7 @@ export default function AboutPage() {
             </div>
 
             <a
-              href="/contact"
+              href="/contact/"
               className="shrink-0 inline-flex items-center gap-2 bg-gold-950 text-white px-8 py-4 rounded-xl font-semibold hover:bg-gold-800 transition"
             >
               Get In Touch

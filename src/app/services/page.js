@@ -180,7 +180,7 @@ export default function ServicesPage() {
                   </ul>
 
                   <a
-                    href="/contact"
+                    href="/contact/"
                     className="mt-8 inline-flex items-center gap-2 bg-gold-950 text-white px-7 py-3.5 rounded-xl font-semibold hover:bg-gold-800 transition"
                   >
                     Enquire Now
@@ -208,7 +208,7 @@ export default function ServicesPage() {
             </div>
 
             <a
-              href="/contact"
+              href="/contact/"
               className="shrink-0 inline-flex items-center gap-2 bg-gold-950 text-white px-8 py-4 rounded-xl font-semibold hover:bg-gold-800 transition"
             >
               Start Your Project

@@ -37,11 +37,11 @@ export default function Footer() {
             <div className="space-y-2 text-sm">
               <Link href="/">Home</Link>
               <br />
-              <Link href="/about">About</Link>
+              <Link href="/about-us/">About</Link>
               <br />
-              <Link href="/services">Services</Link>
+              <Link href="/services/">Services</Link>
               <br />
-              <Link href="/gallery">Gallery</Link>
+              <Link href="/gallery/">Gallery</Link>
             </div>
           </div>
 

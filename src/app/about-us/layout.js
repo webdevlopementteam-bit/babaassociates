@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Learn about Baba Associates — building homes in Rohini since 1998. Founded by Sh. Goverdhan Dass Wanvani, trusted by thousands of clients across Delhi NCR.",
   alternates: {
-    canonical: "/about-us",
+    canonical: "/about-us/",
   },
 };
 

@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Browse our gallery of completed residential projects, interiors and renovations across Rohini and Delhi NCR by Baba Associates.",
   alternates: {
-    canonical: "/gallery",
+    canonical: "/gallery/",
   },
 };
 

@@ -22,10 +22,10 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/about-us" },
-    { name: "Services", href: "/services" },
-    { name: "Gallery", href: "/gallery" },
-    { name: "Contact Us", href: "/contact" },
+    { name: "About Us", href: "/about-us/" },
+    { name: "Services", href: "/services/" },
+    { name: "Gallery", href: "/gallery/" },
+    { name: "Contact Us", href: "/contact/" },
   ];
 
   return (
@@ -73,7 +73,7 @@ export default function Navbar() {
 
             {/* CTA */}
             <Link
-              href="/contact"
+              href="/contact/"
               className="ml-2 rounded-xl border border-gold-400/70 px-6 py-3 text-white font-medium hover:bg-gold-400 hover:text-gold-950 transition duration-300"
             >
               Schedule Consultation
@@ -118,7 +118,7 @@ export default function Navbar() {
           ))}
 
           <Link
-            href="/contact"
+            href="/contact/"
             onClick={() => setMobileMenu(false)}
             className="block text-center rounded-lg border border-gold-400/70 px-5 py-3 text-white hover:bg-gold-400 hover:text-gold-950 transition"
           >

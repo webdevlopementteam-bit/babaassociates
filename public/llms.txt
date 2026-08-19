@@ -5,10 +5,10 @@
 ## Pages
 
 - [Home](https://rohinihomes.in/): Overview of Baba Associates, services, featured projects, testimonials and FAQs.
-- [About Us](https://rohinihomes.in/about-us): Company history since 1998, founding team profiles and professional experience.
-- [Services](https://rohinihomes.in/services): New construction, new home sales, resale properties, home redesign, renovation, and building on customer-owned plots.
-- [Gallery](https://rohinihomes.in/gallery): Photos of completed residential projects, interiors and renovations.
-- [Contact Us](https://rohinihomes.in/contact): Phone numbers, email and office address in Sector-16, Rohini, plus an enquiry form.
+- [About Us](https://rohinihomes.in/about-us/): Company history since 1998, founding team profiles and professional experience.
+- [Services](https://rohinihomes.in/services/): New construction, new home sales, resale properties, home redesign, renovation, and building on customer-owned plots.
+- [Gallery](https://rohinihomes.in/gallery/): Photos of completed residential projects, interiors and renovations.
+- [Contact Us](https://rohinihomes.in/contact/): Phone numbers, email and office address in Sector-16, Rohini, plus an enquiry form.
 
 ## Key Facts
 
