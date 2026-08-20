@@ -44,6 +44,9 @@ export const metadata = {
     shortcut: "/balogo.png",
     apple: "/balogo.png",
   },
+    verification: {
+    google: "y-2g0z3cvXmHKSpH4mZDLrNE3cnfWZ4zRoaiUuyYWQI",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -7,6 +7,11 @@ export default function sitemap() {
     { path: "/", priority: 1, changeFrequency: "weekly" },
     { path: "/about-us/", priority: 0.8, changeFrequency: "monthly" },
     { path: "/services/", priority: 0.8, changeFrequency: "monthly" },
+    {
+      path: "/best-property-in-rohini-sector-16/",
+      priority: 0.9,
+      changeFrequency: "weekly",
+    },
     { path: "/gallery/", priority: 0.7, changeFrequency: "monthly" },
     { path: "/contact/", priority: 0.6, changeFrequency: "monthly" },
   ];
