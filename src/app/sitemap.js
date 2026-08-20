@@ -10,7 +10,12 @@ export default function sitemap() {
     {
       path: "/best-property-in-rohini-sector-16/",
       priority: 0.9,
-      changeFrequency: "weekly",
+      changeFrequency: "daily",
+    },
+    {
+      path: "/rohini-property-dealer-near-me/",
+      priority: 0.9,
+      changeFrequency: "daily",
     },
     { path: "/gallery/", priority: 0.7, changeFrequency: "monthly" },
     { path: "/contact/", priority: 0.6, changeFrequency: "monthly" },
