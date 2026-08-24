@@ -14,15 +14,15 @@ const items = [
   },
   {
     icon: <Clock3 size={22} />,
-    text: "50+ YEARS COMBINED EXPERIENCE",
+    text: "WE ARE WORKING SINCE 1998",
   },
   {
     icon: <Award size={22} />,
-    text: "NRI FRIENDLY INVESTMENT",
+    text: "BUDGET FRIENDLY INVESTMENT",
   },
   {
     icon: <Users size={22} />,
-    text: "500+ INVESTORS SERVED",
+    text: "1000+ CUSTOMERS SERVED",
   },
 ];
 

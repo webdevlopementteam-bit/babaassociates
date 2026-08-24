@@ -116,7 +116,7 @@ export default function ExpertiseSection() {
                 <div className="flex items-center gap-3 pr-6">
                   <Building2 size={22} className="text-gold-300 shrink-0" />
                   <div>
-                    <p className="text-2xl font-bold text-white leading-none">15+</p>
+                    <p className="text-2xl font-bold text-white leading-none">17+</p>
                     <p className="text-[11px] uppercase tracking-[2px] text-gold-200 mt-1">
                       Years of Excellence
                     </p>
@@ -126,7 +126,7 @@ export default function ExpertiseSection() {
                 <div className="flex items-center gap-3 pl-6">
                   <Users size={22} className="text-gold-300 shrink-0" />
                   <div>
-                    <p className="text-2xl font-bold text-white leading-none">500+</p>
+                    <p className="text-2xl font-bold text-white leading-none">1000+</p>
                     <p className="text-[11px] uppercase tracking-[2px] text-gold-200 mt-1">
                       Happy Families
                     </p>

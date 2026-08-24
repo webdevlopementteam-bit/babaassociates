@@ -96,7 +96,7 @@ export default function GalleryCarousel({ items }) {
               >
                 <Image
                   src={item.image}
-                  alt={item.name}
+                  alt={""}
                   fill
                   sizes="(max-width: 768px) 100vw,(max-width: 1200px) 80vw,700px"
                   className="object-cover"
@@ -105,9 +105,7 @@ export default function GalleryCarousel({ items }) {
                 {offset === 0 && (
                   <>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0" />
-                    <p className="absolute bottom-4 left-4 right-4 text-white text-sm font-semibold line-clamp-2">
-                      {item.name}
-                    </p>
+                   
                   </>
                 )}
               </div>

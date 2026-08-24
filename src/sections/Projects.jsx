@@ -6,7 +6,7 @@ const projects = [
   {
     id: 1,
     video: "/projectone.mp4",
-    badge: "Premium",
+    badge: "Sold Out",
     category: "Residential Project",
     title: "3-BHK , 90sq yards",
     location: "Delhi",
@@ -15,7 +15,7 @@ const projects = [
   {
     id: 2,
     video: "/projecttwo.mp4",
-    badge: "Ready for sale",
+    badge: "Sold Out",
     category: "New Modern Flat",
     title: "2-BHK , 84sq yards",
     location: "Delhi",
@@ -24,7 +24,7 @@ const projects = [
   {
     id: 3,
     video: "/projecttwo3.mp4",
-    badge: "Ready for sale",
+    badge: "Sold Out",
     category: "New Modern Flat",
     title: "4-BHK , 170sq yards",
     location: "Delhi",

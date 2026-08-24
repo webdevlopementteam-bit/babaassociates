@@ -3,23 +3,23 @@
 import Image from "next/image";
 
 const gallery = [
-  { id: 1, image: "/gallery/imageone.jpeg", name: "Luxury Villa Exterior" },
-  { id: 2, image: "/gallery/imagetwo.jpeg", name: "Elegant Living Room" },
-  { id: 3, image: "/gallery/imagethree.jpeg", name: "Modern Kitchen Design" },
-  { id: 4, image: "/gallery/imagefour.jpeg", name: "Premium Master Bedroom" },
+  { id: 1, image: "/gallery/imageone.jpeg" },
+  { id: 2, image: "/gallery/imagetwo.jpeg" },
+  { id: 3, image: "/gallery/imagethree.jpeg" },
+  { id: 4, image: "/gallery/imagefour.jpeg" },
   {
     id: 5,
     image: "/gallery/imagefive.jpeg",
     name: "Contemporary Dining Space",
   },
-  { id: 6, image: "/gallery/imagesix.jpeg", name: "Designer Bathroom" },
-  { id: 7, image: "/gallery/imageseven.jpeg", name: "Spacious Balcony View" },
-  { id: 8, image: "/gallery/imageeight.jpeg", name: "Home Office Interior" },
-  { id: 9, image: "/gallery/imagenine.jpeg", name: "Rooftop Lounge" },
-  { id: 10, image: "/gallery/imageten.webp", name: "Entrance Foyer" },
-  { id: 11, image: "/gallery/imageeleven.webp", name: "Modern Facade Design" },
-  { id: 12, image: "/gallery/imagetwelve.webp", name: "Cozy Family Lounge" },
-  { id: 13, image: "/gallery/imagethirteen.webp", name: "Elegant Staircase" },
+  { id: 6, image: "/gallery/imagesix.jpeg"   },
+  { id: 7, image: "/gallery/imageseven.jpeg"   },
+  { id: 8, image: "/gallery/imageeight.jpeg"   },
+  { id: 9, image: "/gallery/imagenine.jpeg" },
+  { id: 10, image: "/gallery/imageten.webp"  },
+  { id: 11, image: "/gallery/imageeleven.webp"  },
+  { id: 12, image: "/gallery/imagetwelve.webp"   },
+  { id: 13, image: "/gallery/imagethirteen.webp"   },
   {
     id: 14,
     image: "/gallery/imagefourteen.webp",
@@ -57,11 +57,11 @@ export default function GalleryPage() {
             {gallery.map((item) => (
               <div
                 key={item.id}
-                className="group relative overflow-hidden rounded-2xl shadow-xl aspect-[4/3]"
+                className="group relative overflow-hidden rounded-2xl shadow-xl aspect-[4/5]"
               >
                 <Image
                   src={item.image}
-                  alt={item.name}
+                  alt={""}
                   fill
                   sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"
                   className="object-cover transition-all duration-700 group-hover:scale-110"
@@ -73,9 +73,7 @@ export default function GalleryPage() {
                   <p className="uppercase tracking-[3px] text-gold-300 text-xs font-poppins">
                     Baba Associates
                   </p>
-                  <h3 className="text-xl font-cinzel text-white mt-1">
-                    {item.name}
-                  </h3>
+                 
                 </div>
               </div>
             ))}
