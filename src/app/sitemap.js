@@ -22,6 +22,11 @@ export default function sitemap() {
       priority: 0.9,
       changeFrequency: "daily",
     },
+    {
+      path: "/best-property-in-rohini/",
+      priority: 0.9,
+      changeFrequency: "daily",
+    },
     { path: "/gallery/", priority: 0.7, changeFrequency: "monthly" },
     { path: "/contact/", priority: 0.6, changeFrequency: "monthly" },
   ];
