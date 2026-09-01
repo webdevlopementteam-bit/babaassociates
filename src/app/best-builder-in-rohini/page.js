@@ -250,7 +250,7 @@ export default function BestBuilderPage() {
           <SectionHeading eyebrow="Founded 1998" title="A Traceable History, Not a Claim">
             Baba Associates started as a construction firm in 1998, founded by Sh. Goverdhan
             Dass Wanvani, and formally expanded into full real estate consultancy in 2010 under
-            co-founder Mr. Lalit Wadhwani (B.Tech). Today it&apos;s run by a family team — Mr.
+            co-founder Mr. Lalit Wanvani (B.Tech). Today it&apos;s run by a family team — Mr.
             Madhukar Wanvani handles sales and operations, Mr. Ish Kumar Wanvani leads sales and
             marketing — meaning the people who answer your call are the same people accountable
             for your project, not a rotating call centre.

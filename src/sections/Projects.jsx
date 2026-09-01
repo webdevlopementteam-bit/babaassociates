@@ -5,8 +5,7 @@ import { MapPin, ArrowRight } from "lucide-react";
 const projects = [
   {
     id: 1,
-    video: "/projectone.mp4",
-    badge: "Sold Out",
+    video: "/Featured Projects/projectone.mp4",
     category: "Residential Project",
     title: "3-BHK , 90sq yards",
     location: "Delhi",
@@ -14,8 +13,7 @@ const projects = [
   },
   {
     id: 2,
-    video: "/projecttwo.mp4",
-    badge: "Sold Out",
+    video: "/Featured Projects/projecttwo.mp4",
     category: "New Modern Flat",
     title: "2-BHK , 84sq yards",
     location: "Delhi",
@@ -23,11 +21,34 @@ const projects = [
   },
   {
     id: 3,
-    video: "/projecttwo3.mp4",
-    badge: "Sold Out",
+    video: "/Featured Projects/projecttwo3.mp4",
     category: "New Modern Flat",
     title: "4-BHK , 170sq yards",
     location: "Delhi",
+    feature: "Premium Interior Finish",
+  },
+  {
+    id: 4,
+    video: "/Featured Projects/projecttwo4.mp4",
+    category: "Residential Project",
+    title: "4-BHK , 155sq yards",
+    location: "Delhi",
+    feature: "Luxury Apartments",
+  },
+  {
+    id: 5,
+    video: "/Featured Projects/projecttwo5.mp4",
+    category: "New Modern Ultra Luxurious Kothi",
+    title: "6-BHK , 170sq yards",
+    location: "sector 16 - Rohini, Delhi",
+    feature: "Premium Interior Finish",
+  },
+  {
+    id: 6,
+    video: "/Featured Projects/projecttwo6.mp4",
+    category: "New Modern Flat",
+    title: "4-BHK , 184sq yards",
+    location: "sector 11 - Rohini, Delhi",
     feature: "Premium Interior Finish",
   },
 ];
@@ -72,10 +93,6 @@ export default function ProjectsSection() {
                   playsInline
                   className="aspect-video w-full object-cover group-hover:scale-110 transition duration-700"
                 />
-
-                <span className="absolute top-5 left-5 rounded-full bg-white px-4 py-2 text-sm font-semibold">
-                  {project.badge}
-                </span>
               </div>
 
               <div className="p-7">

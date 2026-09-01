@@ -34,7 +34,7 @@ const team = [
   },
   {
     initials: "LW",
-    name: "Mr. Lalit Wadhwani",
+    name: "Mr. Lalit Wanvani",
     role: "Co-Founder",
     points: [
       "Graduate in B.Tech.",

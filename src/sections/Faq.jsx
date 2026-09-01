@@ -13,7 +13,7 @@ const faqs = [
   {
     question: "When was Baba Associates established and who founded it?",
     answer:
-      "Baba Associates was founded by Sh. Goverdhan Dass Wanvani, who began building homes in Rohini in 1998. The firm formally began operating as a real estate consultancy in 2010 under co-founder Mr. Lalit Wadhwani (B.Tech), and is run today by a family team that handles construction, legal documentation, sales and interiors in-house — including Mr. Madhukar Wanvani (sales and operations) and Mr. Ish Kumar Wanvani (sales and marketing).",
+      "Baba Associates was founded by Sh. Goverdhan Dass Wanvani, who began building homes in Rohini in 1998. The firm formally began operating as a real estate consultancy in 2010 under co-founder Mr. Lalit Wanvani (B.Tech), and is run today by a family team that handles construction, legal documentation, sales and interiors in-house — including Mr. Madhukar Wanvani (sales and operations) and Mr. Ish Kumar Wanvani (sales and marketing).",
   },
   {
     question: "Can Baba Associates build a house on my own plot in Rohini?",
@@ -95,9 +95,7 @@ export default function FAQSection() {
               className="overflow-hidden rounded-2xl border border-[#D4AF37]/20 bg-white/5 backdrop-blur-md transition-all duration-300 hover:border-[#D4AF37]/50"
             >
               <button
-                onClick={() =>
-                  setActive(active === index ? -1 : index)
-                }
+                onClick={() => setActive(active === index ? -1 : index)}
                 className="flex w-full items-center justify-between px-7 py-6 text-left"
               >
                 <h3 className="font-poppins text-lg font-semibold text-white md:text-xl">
@@ -113,9 +111,7 @@ export default function FAQSection() {
 
               <div
                 className={`grid transition-all duration-500 ease-in-out ${
-                  active === index
-                    ? "grid-rows-[1fr]"
-                    : "grid-rows-[0fr]"
+                  active === index ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
                 }`}
               >
                 <div className="overflow-hidden">

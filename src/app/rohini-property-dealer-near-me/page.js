@@ -131,82 +131,82 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      "name": "Who is the best Rohini property dealer near me?",
-      "acceptedAnswer": {
+      name: "Who is the best Rohini property dealer near me?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "The right property dealer in Rohini depends on your sector and requirement, but look for one with a physical office in Rohini, a verifiable RERA number, named staff and closed deals in your sector. Baba Associates has worked from Sector-16, Rohini since 1998, has constructed over 56,000 sq. ft. in Rohini, and handles construction, resale, rentals and renovation in-house.",
+        text: "The right property dealer in Rohini depends on your sector and requirement, but look for one with a physical office in Rohini, a verifiable RERA number, named staff and closed deals in your sector. Baba Associates has worked from Sector-16, Rohini since 1998, has constructed over 56,000 sq. ft. in Rohini, and handles construction, resale, rentals and renovation in-house.",
       },
     },
     {
       "@type": "Question",
-      "name": "How much commission does a property dealer in Rohini charge?",
-      "acceptedAnswer": {
+      name: "How much commission does a property dealer in Rohini charge?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "Property dealers in Rohini typically charge 1% to 2% of the transaction value from each party for a sale, and one month's rent for a rental. Brokerage is not fixed by law in Delhi and is negotiable. Always agree the exact percentage in writing before work starts.",
+        text: "Property dealers in Rohini typically charge 1% to 2% of the transaction value from each party for a sale, and one month's rent for a rental. Brokerage is not fixed by law in Delhi and is negotiable. Always agree the exact percentage in writing before work starts.",
       },
     },
     {
       "@type": "Question",
-      "name": "What is the property rate in Rohini per sq ft in 2026?",
-      "acceptedAnswer": {
+      name: "What is the property rate in Rohini per sq ft in 2026?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "Property in Rohini averages around ₹13,000 to ₹14,100 per sq. ft. for flats as of mid-2026, with builder floors ranging roughly ₹8,650 to ₹14,700 per sq. ft. Rates vary sharply by sector — Sector 13 sits near the top, while Sectors 16, 22 and 28 are more affordable. The Rohini residential circle rate is around ₹6,506 per sq. ft. after the January 2026 revision.",
+        text: "Property in Rohini averages around ₹13,000 to ₹14,100 per sq. ft. for flats as of mid-2026, with builder floors ranging roughly ₹8,650 to ₹14,700 per sq. ft. Rates vary sharply by sector — Sector 13 sits near the top, while Sectors 16, 22 and 28 are more affordable. The Rohini residential circle rate is around ₹6,506 per sq. ft. after the January 2026 revision.",
       },
     },
     {
       "@type": "Question",
-      "name": "Which sector in Rohini is best to buy property?",
-      "acceptedAnswer": {
+      name: "Which sector in Rohini is best to buy property?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "Sectors 13, 14 and 18 are the most developed and cost the most, suiting buyers who want established infrastructure and strong resale. Sectors 16, 22, 25 and 28 offer better value with settled infrastructure, ideal for first-time buyers of independent floors. Sectors 34 to 37 have the lowest entry prices and good long-term appreciation, but weaker social infrastructure today.",
+        text: "Sectors 13, 14 and 18 are the most developed and cost the most, suiting buyers who want established infrastructure and strong resale. Sectors 16, 22, 25 and 28 offer better value with settled infrastructure, ideal for first-time buyers of independent floors. Sectors 34 to 37 have the lowest entry prices and good long-term appreciation, but weaker social infrastructure today.",
       },
     },
     {
       "@type": "Question",
-      "name": "How do I find a genuine property dealer in Rohini?",
-      "acceptedAnswer": {
+      name: "How do I find a genuine property dealer in Rohini?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "Look for a dealer with a physical office you can visit in Rohini, a RERA registration number you can verify on the Delhi RERA portal, named staff rather than an anonymous firm, and a track record in the specific sector you are buying in. Ask to see original documents rather than photocopies, and agree the brokerage percentage in writing before any work begins. Baba Associates operates from an office at I-4/21 & H-5/57, Sector-16, Rohini, with a named family team and both construction and consultancy experience in Rohini since 1998.",
+        text: "Look for a dealer with a physical office you can visit in Rohini, a RERA registration number you can verify on the Delhi RERA portal, named staff rather than an anonymous firm, and a track record in the specific sector you are buying in. Ask to see original documents rather than photocopies, and agree the brokerage percentage in writing before any work begins. Baba Associates operates from an office at I-4/21 & H-5/57, Sector-16, Rohini, with a named family team and both construction and consultancy experience in Rohini since 1998.",
       },
     },
     {
       "@type": "Question",
-      "name": "What documents should I check before buying property in Rohini?",
-      "acceptedAnswer": {
+      name: "What documents should I check before buying property in Rohini?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "Check the chain of title, registered sale deed, freehold conversion certificate if the property was DDA leasehold, MCD-sanctioned building plan, mutation records, latest property tax receipts, and electricity and water no-dues certificates. Also run an encumbrance check for any existing mortgage, and insist on originals rather than photocopies.",
+        text: "Check the chain of title, registered sale deed, freehold conversion certificate if the property was DDA leasehold, MCD-sanctioned building plan, mutation records, latest property tax receipts, and electricity and water no-dues certificates. Also run an encumbrance check for any existing mortgage, and insist on originals rather than photocopies.",
       },
     },
     {
       "@type": "Question",
-      "name": "Can I build a house on my own plot in Rohini?",
-      "acceptedAnswer": {
+      name: "Can I build a house on my own plot in Rohini?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "Yes, you can build on a plot you own in Rohini, subject to MCD-sanctioned building plans and the floor area ratio limits for your plot size and sector. Baba Associates offers this as a turnkey service from ground zero to finished building, or as a consultancy where we guide you and charge as per scope. Plot ownership stays with you throughout.",
+        text: "Yes, you can build on a plot you own in Rohini, subject to MCD-sanctioned building plans and the floor area ratio limits for your plot size and sector. Baba Associates offers this as a turnkey service from ground zero to finished building, or as a consultancy where we guide you and charge as per scope. Plot ownership stays with you throughout.",
       },
     },
     {
       "@type": "Question",
-      "name": "Do property dealers in Rohini help with home loans?",
-      "acceptedAnswer": {
+      name: "Do property dealers in Rohini help with home loans?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "Most established property dealers in Rohini assist with home loan documentation and can connect you with banks, though they are not lenders and cannot guarantee approval. Freehold properties with clean title and a sanctioned plan are approved faster than leasehold or unauthorised construction.",
+        text: "Most established property dealers in Rohini assist with home loan documentation and can connect you with banks, though they are not lenders and cannot guarantee approval. Freehold properties with clean title and a sanctioned plan are approved faster than leasehold or unauthorised construction.",
       },
     },
     {
       "@type": "Question",
-      "name": "Can NRIs buy property in Rohini, Delhi?",
-      "acceptedAnswer": {
+      name: "Can NRIs buy property in Rohini, Delhi?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "Yes, NRIs can buy residential and commercial property in India under RBI and FEMA guidelines, though agricultural land, plantations and farmhouses cannot be bought directly. Payment must go through normal banking channels using NRE, NRO or FCNR accounts. Baba Associates provides video walkthroughs, documentation support and project supervision for NRI clients.",
+        text: "Yes, NRIs can buy residential and commercial property in India under RBI and FEMA guidelines, though agricultural land, plantations and farmhouses cannot be bought directly. Payment must go through normal banking channels using NRE, NRO or FCNR accounts. Baba Associates provides video walkthroughs, documentation support and project supervision for NRI clients.",
       },
     },
     {
       "@type": "Question",
-      "name": "What areas does Baba Associates cover in Rohini?",
-      "acceptedAnswer": {
+      name: "What areas does Baba Associates cover in Rohini?",
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": "Baba Associates operates from an office at I-4/21 & H-5/57, Sector-16, Rohini, and works across Rohini along with select projects in Delhi NCR. The firm handles new construction on owned plots, ready-to-move builder floors, resale, rentals, renovation and commercial property.",
+        text: "Baba Associates operates from an office at I-4/21 & H-5/57, Sector-16, Rohini, and works across Rohini along with select projects in Delhi NCR. The firm handles new construction on owned plots, ready-to-move builder floors, resale, rentals, renovation and commercial property.",
       },
     },
   ],
@@ -233,9 +233,7 @@ function SectionHeading({
       <span className="mt-6 block h-[2px] w-16 bg-gold-400" />
 
       {children && (
-        <p className="mt-6 max-w-4xl leading-8 text-gray-600">
-          {children}
-        </p>
+        <p className="mt-6 max-w-4xl leading-8 text-gray-600">{children}</p>
       )}
     </div>
   );
@@ -274,11 +272,13 @@ export default function RohiniPropertyDealerNearMePage() {
 
           <p className="mt-5 max-w-5xl leading-8 text-gold-100/75">
             If you have been searching for a{" "}
-           
-          <Link
-            href="/contact/" className="text-white"> <strong>Rohini property dealer near me</strong></Link>, our office is at
-            I-4/21 &amp; H-5/57, Sector-16, Rohini. You can walk in any working
-            day and meet the person who will actually handle your file.
+            <Link href="/contact/" className="text-white">
+              {" "}
+              <strong>Rohini property dealer near me</strong>
+            </Link>
+            , our office is at I-4/21 &amp; H-5/57, Sector-16, Rohini. You can
+            walk in any working day and meet the person who will actually handle
+            your file.
           </p>
 
           <p className="mt-5 max-w-5xl leading-8 text-gold-100/75">
@@ -289,8 +289,8 @@ export default function RohiniPropertyDealerNearMePage() {
           </p>
 
           <p className="mt-5 max-w-5xl leading-8 text-gold-100/75">
-            So far we have constructed over 56,000 sq. ft. in Rohini and
-            handled more than 3 lakh sq. ft. as a consultancy.
+            So far we have constructed over 56,000 sq. ft. in Rohini and handled
+            more than 3 lakh sq. ft. as a consultancy.
           </p>
 
           <Link
@@ -303,27 +303,29 @@ export default function RohiniPropertyDealerNearMePage() {
         </div>
       </section>
 
-       <section className="relative w-full overflow-hidden bg-gold-950">
-              <Image
-                src="/propertydealer.jpeg"
-                alt="Best property in Rohini Sector 16 by Baba Associates"
-                width={2047}
-                height={1331}
-                priority
-                sizes="100vw"
-                className="block h-auto w-full"
-              />
-            </section>
+      <section className="relative w-full overflow-hidden bg-gold-950">
+        <Image
+          src="/propertydealer.jpeg"
+          alt="Best property in Rohini Sector 16 by Baba Associates"
+          width={2047}
+          height={1331}
+          priority
+          sizes="100vw"
+          className="block h-auto w-full"
+        />
+      </section>
 
       {/* Our Services */}
       <section className="bg-white px-6 py-20 md:py-28">
         <div className="mx-auto max-w-7xl">
           <SectionHeading eyebrow="Our Services" title="Our Services">
             People searching for a{" "}
-            <Link
-            href="/contact/"> <strong>Rohini property dealer near me</strong></Link> usually need one of
-            these six things. We handle all of them in-house, with our own
-            team.
+            <Link href="/contact/">
+              {" "}
+              <strong>Rohini property dealer near me</strong>
+            </Link>{" "}
+            usually need one of these six things. We handle all of them
+            in-house, with our own team.
           </SectionHeading>
 
           <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -357,10 +359,12 @@ export default function RohiniPropertyDealerNearMePage() {
             title="Why Choose Baba Associates"
           >
             Most people who search for a{" "}
-             <Link
-            href="/contact/"> <strong>Rohini property dealer near me</strong></Link> are really asking
-            one question: can I trust this firm with the biggest purchase of
-            my life? Here is our honest answer.
+            <Link href="/contact/">
+              {" "}
+              <strong>Rohini property dealer near me</strong>
+            </Link>{" "}
+            are really asking one question: can I trust this firm with the
+            biggest purchase of my life? Here is our honest answer.
           </SectionHeading>
 
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -372,9 +376,7 @@ export default function RohiniPropertyDealerNearMePage() {
                 <CheckCircle2 className="text-gold-600" size={23} />
 
                 <p className="mt-4 leading-7 text-gray-700">
-                  <span className="font-semibold text-gray-900">
-                    {lead}
-                  </span>{" "}
+                  <span className="font-semibold text-gray-900">{lead}</span>{" "}
                   {text}
                 </p>
               </div>
@@ -390,18 +392,21 @@ export default function RohiniPropertyDealerNearMePage() {
             eyebrow="Property Dealer in Rohini Sector 16"
             title="Property Dealer in Rohini Sector 16"
           >
-            Sector 16 is our home ground, and it is where most clients
-            searching for a{" "}
-          <Link
-            href="/contact/"> <strong>Rohini property dealer near me</strong></Link> end up finding us.
+            Sector 16 is our home ground, and it is where most clients searching
+            for a{" "}
+            <Link href="/contact/">
+              {" "}
+              <strong>Rohini property dealer near me</strong>
+            </Link>{" "}
+            end up finding us.
           </SectionHeading>
 
           <div className="mt-10 max-w-5xl space-y-6 leading-8 text-gray-700">
             <p>
               The sector is fully developed, with established markets and
-              schools, yet still more affordable than Sectors 13 and 14 —
-              which makes it good value for a family buying their first
-              independent floor.
+              schools, yet still more affordable than Sectors 13 and 14 — which
+              makes it good value for a family buying their first independent
+              floor.
             </p>
 
             <p>
@@ -414,8 +419,7 @@ export default function RohiniPropertyDealerNearMePage() {
 
             <p>
               Some older properties here also still have pending leasehold
-              conversion. We confirm this in writing before any advance is
-              paid.
+              conversion. We confirm this in writing before any advance is paid.
             </p>
           </div>
         </div>
@@ -434,17 +438,17 @@ export default function RohiniPropertyDealerNearMePage() {
               homes in Rohini since 1998.
               <br />
               <br />
-              <strong>Mr. Lalit Wadhwani</strong> — Co-Founder, B.Tech. Expert
-              in property legal framework, documentation, construction and
-              layout planning.
+              <strong>Mr. Lalit Wanvani</strong> — Co-Founder, B.Tech. Expert in
+              property legal framework, documentation, construction and layout
+              planning.
               <br />
               <br />
-              <strong>Mr. Madhukar Wanvani</strong> — Sales and Operations,
-              B.A. Handling Rohini deals end to end since 2009.
+              <strong>Mr. Madhukar Wanvani</strong> — Sales and Operations, B.A.
+              Handling Rohini deals end to end since 2009.
               <br />
               <br />
-              <strong>Mr. Ish Kumar Wanvani</strong> — Sales and Marketing,
-              MBA. Handles paperwork formalities and negotiations.
+              <strong>Mr. Ish Kumar Wanvani</strong> — Sales and Marketing, MBA.
+              Handles paperwork formalities and negotiations.
             </span>
           </SectionHeading>
         </div>
@@ -454,9 +458,8 @@ export default function RohiniPropertyDealerNearMePage() {
       <section className="bg-[#FBF6EC] px-6 py-20 md:py-28">
         <div className="mx-auto max-w-5xl">
           <SectionHeading eyebrow="Talk to Us" title="Talk to Us">
-            Your search for a{" "}
-            <strong>Rohini property dealer near me</strong> ends at our office
-            door. Come and meet us.
+            Your search for a <strong>Rohini property dealer near me</strong>{" "}
+            ends at our office door. Come and meet us.
           </SectionHeading>
 
           <div className="mt-10 rounded-2xl border border-gold-200 bg-white p-8 leading-8 text-gray-700">
@@ -506,9 +509,8 @@ export default function RohiniPropertyDealerNearMePage() {
           </h2>
 
           <p className="mt-4 max-w-3xl leading-7 text-gray-600">
-            Your search for a{" "}
-            <strong>Rohini property dealer near me</strong> ends at our office
-            door. Come and meet us.
+            Your search for a <strong>Rohini property dealer near me</strong>{" "}
+            ends at our office door. Come and meet us.
           </p>
 
           <Link

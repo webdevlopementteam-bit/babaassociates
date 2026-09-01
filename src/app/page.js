@@ -8,10 +8,10 @@ import Hero from "@/sections/Hero";
 import ProjectsSection from "@/sections/Projects";
 import ServicesSection from "@/sections/ServicesSection";
 import TestimonialsSection from "@/sections/TestimonialsSection";
-import Image from "next/image";
 
 export const metadata = {
-  title: "Baba Associates | Property Dealer & Home Builder in Rohini Since 1998",
+  title:
+    "Baba Associates | Property Dealer & Home Builder in Rohini Since 1998",
   description:
     "Building homes in Rohini since 1998. New construction on your plot, 2-4 BHK freehold floors, resale, renovation & interiors. Call Baba Associates today.",
   alternates: {
@@ -36,7 +36,7 @@ const faqSchema = {
       name: "When was Baba Associates established and who founded it?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Baba Associates was founded by Sh. Goverdhan Dass Wanvani, who began building homes in Rohini in 1998. The firm formally began operating as a real estate consultancy in 2010 under co-founder Mr. Lalit Wadhwani (B.Tech), and is run today by a family team that handles construction, legal documentation, sales and interiors in-house — including Mr. Madhukar Wanvani (sales and operations) and Mr. Ish Kumar Wanvani (sales and marketing).",
+        text: "Baba Associates was founded by Sh. Goverdhan Dass Wanvani, who began building homes in Rohini in 1998. The firm formally began operating as a real estate consultancy in 2010 under co-founder Mr. Lalit Wanvani (B.Tech), and is run today by a family team that handles construction, legal documentation, sales and interiors in-house — including Mr. Madhukar Wanvani (sales and operations) and Mr. Ish Kumar Wanvani (sales and marketing).",
       },
     },
     {
