@@ -17,6 +17,8 @@ const teamContacts = [
   { name: "Lalit Wanvani", phone: "9711434491" },
 ];
 
+const WEB3FORMS_ACCESS_KEY = "55bf3ebf-8e1b-4804-9bad-437f5ec3dc8f";
+
 export default function ContactPage() {
   const [form, setForm] = useState({
     name: "",
@@ -25,14 +27,45 @@ export default function ContactPage() {
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_ACCESS_KEY,
+          subject: "New Enquiry from Baba Associates",
+          from_name: "Baba Associates",
+          ...form,
+        }),
+      });
+      const data = await res.json();
+
+      if (data.success) {
+        setSubmitted(true);
+        setForm({ name: "", email: "", phone: "", message: "" });
+      } else {
+        setError(data.message || "Something went wrong. Please try again.");
+      }
+    } catch {
+      setError("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -238,11 +271,18 @@ export default function ContactPage() {
                       </div>
                     </div>
 
+                    {error && (
+                      <p className="text-sm text-red-600 font-poppins">
+                        {error}
+                      </p>
+                    )}
+
                     <button
                       type="submit"
-                      className="inline-flex items-center gap-2 bg-gold-950 text-white px-8 py-4 rounded-xl font-semibold hover:bg-gold-800 transition"
+                      disabled={loading}
+                      className="inline-flex items-center gap-2 bg-gold-950 text-white px-8 py-4 rounded-xl font-semibold hover:bg-gold-800 transition disabled:opacity-60 disabled:cursor-not-allowed"
                     >
-                      Send Message
+                      {loading ? "Sending..." : "Send Message"}
                       <Send size={18} />
                     </button>
                   </form>
