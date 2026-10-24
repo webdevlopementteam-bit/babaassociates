@@ -8,7 +8,7 @@ export default function sitemap() {
     { path: "/about-us/", priority: 0.8, changeFrequency: "monthly" },
     { path: "/services/", priority: 0.8, changeFrequency: "monthly" },
     {
-      path: "/best-property-in-rohini-sector-16/",
+      path: "/best-property-dealer-in-rohini-sector-16/",
       priority: 0.9,
       changeFrequency: "daily",
     },

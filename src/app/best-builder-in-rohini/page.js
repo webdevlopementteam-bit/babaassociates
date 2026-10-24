@@ -203,7 +203,7 @@ export default function BestBuilderPage() {
       {/* Banner Image */}
       <section className="relative w-full overflow-hidden bg-gold-950">
         <Image
-          src="/bestbuilder.jpeg"
+          src="/bestbuilder.webp"
           alt="Best builder in Rohini, Delhi — Baba Associates"
           width={1600}
           height={900}

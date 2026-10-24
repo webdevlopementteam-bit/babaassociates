@@ -224,7 +224,7 @@ export default function BestPropertyPage() {
       {/* Banner Image */}
       <section className="relative w-full overflow-hidden bg-gold-950">
         <Image
-          src="/bestproperty.jpeg"
+          src="/bestproperty.webp"
           alt="Best property in Rohini, Delhi — Baba Associates"
           width={1600}
           height={900}

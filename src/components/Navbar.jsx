@@ -42,7 +42,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center">
             {/* Replace with your logo */}
             <Image
-              src="/balogo.png"
+              src="/balogo.webp"
               alt="Logo"
               width={70}
               height={70}

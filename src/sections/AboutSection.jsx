@@ -123,7 +123,7 @@ export default function AboutSection() {
 
             <div className="relative">
               <Image
-                src="/about/aboutimage.jpeg"
+                src="/about/aboutimage.webp"
                 alt="Baba Associates"
                 width={700}
                 height={760}

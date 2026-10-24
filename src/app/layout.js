@@ -40,8 +40,8 @@ export const metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/balogo.png",
-    shortcut: "/balogo.png",
+    icon: "/balogo.webp",
+    shortcut: "/balogo.webp",
     apple: "/balogo.png",
   },
     verification: {

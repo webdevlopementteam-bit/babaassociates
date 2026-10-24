@@ -16,7 +16,7 @@ export default function Footer() {
 
           <div>
             <Image
-              src="/balogo.png"
+              src="/balogo.webp"
               width={90}
               height={90}
               alt="Baba Associates"

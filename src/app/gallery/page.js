@@ -3,19 +3,19 @@
 import Image from "next/image";
 
 const gallery = [
-  { id: 1, image: "/gallery/imageone.jpeg" },
-  { id: 2, image: "/gallery/imagetwo.jpeg" },
-  { id: 3, image: "/gallery/imagethree.jpeg" },
-  { id: 4, image: "/gallery/imagefour.jpeg" },
+  { id: 1, image: "/gallery/imageone.webp" },
+  { id: 2, image: "/gallery/imagetwo.webp" },
+  { id: 3, image: "/gallery/imagethree.webp" },
+  { id: 4, image: "/gallery/imagefour.webp" },
   {
     id: 5,
-    image: "/gallery/imagefive.jpeg",
+    image: "/gallery/imagefive.webp",
     name: "Contemporary Dining Space",
   },
-  { id: 6, image: "/gallery/imagesix.jpeg"   },
-  { id: 7, image: "/gallery/imageseven.jpeg"   },
-  { id: 8, image: "/gallery/imageeight.jpeg"   },
-  { id: 9, image: "/gallery/imagenine.jpeg" },
+  { id: 6, image: "/gallery/imagesix.webp"   },
+  { id: 7, image: "/gallery/imageseven.webp"   },
+  { id: 8, image: "/gallery/imageeight.webp"   },
+  { id: 9, image: "/gallery/imagenine.webp" },
   { id: 10, image: "/gallery/imageten.webp"  },
   { id: 11, image: "/gallery/imageeleven.webp"  },
   { id: 12, image: "/gallery/imagetwelve.webp"   },

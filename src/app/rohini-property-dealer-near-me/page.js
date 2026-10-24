@@ -305,7 +305,7 @@ export default function RohiniPropertyDealerNearMePage() {
 
       <section className="relative w-full overflow-hidden bg-gold-950">
         <Image
-          src="/propertydealer.jpeg"
+          src="/propertydealer.webp"
           alt="Best property in Rohini Sector 16 by Baba Associates"
           width={2047}
           height={1331}

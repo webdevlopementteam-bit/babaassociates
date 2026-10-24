@@ -105,7 +105,7 @@ export default function ExpertiseSection() {
               <div className="absolute -top-4 -right-4 w-[92%] h-[92%] bg-gold-950 rounded-tr-[160px] rounded-tl-3xl rounded-br-3xl rounded-bl-3xl" />
 
               <Image
-                src="/expertise/expimage.jpeg"
+                src="/expertise/expimage.webp"
                 alt="Baba Associates Craftsmanship"
                 width={700}
                 height={760}
