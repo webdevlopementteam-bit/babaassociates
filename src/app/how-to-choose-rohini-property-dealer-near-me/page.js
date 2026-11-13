@@ -191,8 +191,11 @@ export default function RohiniPropertyDealerBlogPage() {
               <span className="mt-4 block h-[2px] w-16 bg-gold-400" />
             </h2>
             <P>
-              If you are searching for a Rohini property dealer near me, the
-              short answer is simple: pick one who has a real office in Rohini,
+              If you are searching for a{" "}
+              <A href="/rohini-property-dealer-near-me/">
+                Rohini property dealer near me
+              </A>
+              , the short answer is simple: pick one who has a real office in Rohini,
               years of local experience, clear paperwork, and no habit of
               pushing you to decide in a hurry. Before you pay anything, visit
               the office, see their past work, and ask for every document in
