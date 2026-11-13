@@ -28,6 +28,12 @@ export default function sitemap() {
       changeFrequency: "daily",
     },
     { path: "/gallery/", priority: 0.7, changeFrequency: "monthly" },
+    { path: "/blog/", priority: 0.7, changeFrequency: "weekly" },
+    {
+      path: "/how-to-choose-rohini-property-dealer-near-me/",
+      priority: 0.8,
+      changeFrequency: "monthly",
+    },
     { path: "/contact/", priority: 0.6, changeFrequency: "monthly" },
   ];
 
