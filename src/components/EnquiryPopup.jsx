@@ -19,7 +19,7 @@ const STORAGE_KEY = "ba_enquiry_popup_shown";
 const DELAY_MS = 5000;
 
 const inputClass =
-  "w-full rounded-xl border border-gray-200 pl-11 pr-4 py-3 text-sm font-poppins focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition";
+  "w-full rounded-xl border border-gray-200 pl-11 pr-4 py-2.5 text-sm font-poppins focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition";
 
 export default function EnquiryPopup() {
   const [open, setOpen] = useState(false);
@@ -111,41 +111,41 @@ export default function EnquiryPopup() {
       aria-labelledby="enquiry-popup-title"
     >
       <div
-        className="relative max-h-[92vh] w-full max-w-lg overflow-y-auto rounded-2xl bg-white shadow-2xl"
+        className="relative max-h-[95vh] w-full max-w-md overflow-y-auto rounded-2xl bg-white shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           type="button"
           onClick={() => setOpen(false)}
           aria-label="Close"
-          className="absolute right-4 top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
+          className="absolute right-4 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
         >
           <X size={20} />
         </button>
 
         {/* Header */}
-        <div className="bg-gold-950 px-8 pt-8 pb-7 text-center">
+        <div className="bg-gold-950 px-6 pt-5 pb-5 text-center">
           <Image
             src="/balogo.webp"
             alt="Baba Associates"
-            width={56}
-            height={56}
+            width={44}
+            height={44}
             className="mx-auto object-contain"
           />
           <h2
             id="enquiry-popup-title"
-            className="mt-3 font-cinzel text-2xl font-bold text-white"
+            className="mt-2 font-cinzel text-xl font-bold text-white md:text-2xl"
           >
             Get A Free Quote
           </h2>
-          <span className="mx-auto mt-3 block h-[2px] w-12 bg-gold-400" />
-          <p className="mt-3 text-sm leading-6 text-gold-100/75">
+          <span className="mx-auto mt-2 block h-[2px] w-12 bg-gold-400" />
+          <p className="mt-2 text-sm leading-6 text-gold-100/75">
             Buying, selling, building or renovating in Rohini? Share your
             details and our team will call you back.
           </p>
         </div>
 
-        <div className="p-6 md:p-8">
+        <div className="p-5 md:p-6">
           {submitted ? (
             <div className="flex flex-col items-center py-8 text-center">
               <CheckCircle2 size={48} className="text-gold-600" />
@@ -164,7 +164,7 @@ export default function EnquiryPopup() {
               </button>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-3">
               <div className="relative">
                 <User
                   size={18}
@@ -222,7 +222,7 @@ export default function EnquiryPopup() {
                 />
                 <textarea
                   name="message"
-                  rows={3}
+                  rows={2}
                   value={form.message}
                   onChange={handleChange}
                   placeholder="Your requirement (e.g. 3 BHK in Sector 16)"
@@ -236,7 +236,7 @@ export default function EnquiryPopup() {
               <button
                 type="submit"
                 disabled={loading}
-                className="flex w-full items-center justify-center gap-2 rounded-xl bg-gold-400 px-8 py-4 font-semibold text-gold-950 transition hover:bg-gold-300 disabled:cursor-not-allowed disabled:opacity-60"
+                className="flex w-full items-center justify-center gap-2 rounded-xl bg-gold-400 px-8 py-3 font-semibold text-gold-950 transition hover:bg-gold-300 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 {loading ? "Sending..." : "Request a Call Back"}
                 <Send size={18} />
